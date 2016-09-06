@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:textColor="#072e10"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/info_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="#510505"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/info_reg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="#05053b"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/info_bookname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:paddingTop="20dp"
+        android:textColor="#000000"
+        android:paddingLeft="20dp"
+        android:id="@+id/info_borrowdate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="#541d03"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/info_borrowdays" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:paddingTop="20dp"
+        android:textStyle="italic"
+        android:textColor="#410838"
+        android:paddingLeft="20dp"
+        android:id="@+id/return_book"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

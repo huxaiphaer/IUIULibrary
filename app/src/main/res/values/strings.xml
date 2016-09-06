@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">IUIU Library</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="returnu"><u><b>This Student has to Return back Our book</b></u></string>
+    <string name="drawer_title"><i><b>IUIU LIBRARY APP</b></i></string>
+    <string name="action_logout">log out</string>
+    <string name="action_register">Register</string>
+    <string name="MainLibrary"><i>Main Library</i></string>
+    <string name="Administartor"><i>Administartor</i></string>
+    <string name="ErpPortal"><i>Erp Portal</i></string>
+    <string name="About"><i>About</i></string>
+
+
+    <string name="hint_email">Suggestion</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Phone Number</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Employers? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+</resources>

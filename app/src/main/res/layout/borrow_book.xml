@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+android:gravity="center"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:hint="Book Id"
+        android:paddingTop="30dp"
+
+        android:id="@+id/et_book_id"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_name"
+        android:gravity="center"
+        android:hint="Enter Your name"
+
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_reg"
+        android:gravity="center"
+        android:hint="Enter Your Reg Number"
+        android:layout_gravity="right" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Borrow Date (dd-mm-yr)"
+        android:id="@+id/borrow_date"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_days"
+        android:gravity="center"
+        android:paddingBottom="30dp"
+        android:hint="Return Date (dd-mm-yr)"
+        android:layout_gravity="right" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Request"
+        android:id="@+id/request"
+        android:textColor="#ffffff"
+        android:background="#122107"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

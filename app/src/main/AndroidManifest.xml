@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iuiu_library.huzykamz.iuiulibrary">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- GCM requires a Google account. -->
+
+    <!-- GCM connects to Google Services. -->
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <permission android:name="huzy.jdhau.jomayi.huzykamz.drawer.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="huzy.jdhau.jomayi.huzykamz.drawer.permission.C2D_MESSAGE" />
+    <!-- This app has permission to register and receive dataf message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name="iuiu.login.app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Science"></activity>
+        <activity android:name=".Select_Faculty"></activity>
+        <activity android:name=".BookInfo"></activity>
+        <activity android:name=".BorrowBook"></activity>
+        <activity android:name=".Medicine"></activity>
+        <activity android:name=".Education"></activity>
+        <activity android:name=".Law"></activity>
+        <activity android:name=".SocialArts"></activity>
+        <activity android:name=".Administrator"/>
+        <activity android:name=".AdministratorInfo"></activity>
+        <activity android:name=".About"></activity>
+        <activity android:name="iuiu.login.app.LoginActivity"/>
+            <activity android:name="iuiu.login.app.Register"/>
+        <activity android:name="student.login.app.StudentLogin"/>
+    </application>
+
+</manifest>

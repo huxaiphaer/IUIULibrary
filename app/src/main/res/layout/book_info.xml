@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:textSize="20dp"
+        android:text="Large Text"
+        android:textColor="#760404"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:id="@+id/author_info" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27dp"
+        android:text="Description"
+        android:textColor="#020801"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:paddingTop="30dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="20dp"
+        android:textStyle="italic"
+        android:textColor="#0e0828"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Small Text"
+        android:id="@+id/book_description"
+        android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
